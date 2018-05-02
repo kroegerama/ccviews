@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="drawableStartCompat" format="reference" />
+    <attr name="drawableEndCompat" format="reference" />
+    <attr name="drawableTopCompat" format="reference" />
+    <attr name="drawableBottomCompat" format="reference" />
+
+    <declare-styleable name="CCButton">
+        <attr name="drawableStartCompat" />
+        <attr name="drawableEndCompat" />
+        <attr name="drawableTopCompat" />
+        <attr name="drawableBottomCompat" />
+    </declare-styleable>
+
+    <declare-styleable name="CCTextView">
+        <attr name="drawableStartCompat" />
+        <attr name="drawableEndCompat" />
+        <attr name="drawableTopCompat" />
+        <attr name="drawableBottomCompat" />
+    </declare-styleable>
+</resources>
