@@ -1,3 +1,5 @@
+[![Release](https://jitpack.io/v/kroegerama/ccviews.svg)](https://jitpack.io/#kroegerama/ccviews)
+
 # Compound Compat Views
 
 A set of Views which support any drawable supported by the support library (e.g. **VectorDrawable**) to be set as
