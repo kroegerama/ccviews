@@ -27,7 +27,7 @@ allprojects {
 
 ```gradle
 dependencies {
-  implementation 'com.github.kroegerama:ccviews:1.0.0'
+  implementation 'com.kroegerama:ccviews:1.0.0'
 }
 ```
 
@@ -39,7 +39,7 @@ dependencies {
   android:layout_height="wrap_content"
   android:text="@string/button_text"
   app:drawableTopCompat="@drawable/button_top_drawable"
-  app:drawableBottomCompat="@drawable/button_top_drawable" />
+  app:drawableBottomCompat="@drawable/button_bottom_drawable" />
 
 <com.kroegerama.ccviews.CCTextView
   android:layout_width="match_parent"
@@ -47,4 +47,11 @@ dependencies {
   android:text="@string/hello_world"
   app:drawableStartCompat="@drawable/vec_hello"
   app:drawableEndCompat="@drawable/vec_world" />
+```
+
+##### or add the drawables via code
+
+```java
+CCTextView tv = findViewById(R.id.cctv);
+tv.setDrawableTopCompat(R.drawable.vector_top);
 ```
