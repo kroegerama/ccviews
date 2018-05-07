@@ -1,4 +1,5 @@
 [![Release](https://jitpack.io/v/kroegerama/ccviews.svg)](https://jitpack.io/#kroegerama/ccviews)
+[![Build Status](https://travis-ci.org/kroegerama/ccviews.svg?branch=master)](https://travis-ci.org/kroegerama/ccviews)
 
 # Compound Compat Views
 
