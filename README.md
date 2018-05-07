@@ -28,7 +28,7 @@ allprojects {
 
 ```gradle
 dependencies {
-  implementation 'com.kroegerama:ccviews:1.0.0'
+  implementation 'com.kroegerama:ccviews:1.0.1'
 }
 ```
 
